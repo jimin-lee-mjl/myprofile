@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;800&display=swap');
 @import "reset.css";
+@import "story.css";
+@import "profile.css";
+
+* {
+    box-sizing: border-box;
+  }
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
 
 body {
     font-family: 'JetBrains Mono', monospace;
@@ -20,65 +31,44 @@ header {
     font-weight: 800;
 }
 
-.main_column {
-    padding: 10px;
-}
-
-.main_column:first-child {
+nav {
+    height: 50px;
     display: flex;
-    justify-content: space-around;
-}
-
-.main_profile {
-    display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
-    font-weight: 600;
-}
-
-.main_profile span {
-    margin-bottom: 5px;
-}
-
-.avatar {
-    width: 100px;
-    height: 100px;
-    background-image: url("me.png");
-    background-size: cover;
-    border-radius: 100%;
-    position: relative;
-}
-
-.edit_avatar {
-    background-color: #0178D7;
-    color: white;
     font-size: 25px;
-    border-radius: 100%;
-    border: solid 2px white;
-    padding: 2px 6px;
-    position: absolute;
-    bottom: 1px;
-    right: 1px;
+    padding: 0 25px 0 20px;
+    border-top: solid 2px rgba( 0, 0, 0, 0.1);  
+    position: fixed;
+    width: 93%;
+    bottom: 0px;
 }
 
-.main_column:nth-child(2) {
-    margin-left: 10px;
-    font-weight: 600;
+.nav_icon:hover, 
+.edit_profile:hover, 
+.main_profile:hover, 
+.edit_avatar:hover,
+.header_column i:hover {
+    cursor: pointer;
 }
 
-.main_column:last-child {
-    display: flex;
+.wrapper {
+    width: 100%;
+    height: 100%;
+    background-color: #8C37CA;
+    display: none;
     justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
-.edit_profile {
-    border: 1px solid rgba( 0, 0, 0, 0.3);
-    border-radius: 5px;
-    border-opacity: 0.5;
-    display: flex;
-    justify-content: center;
-    width: 90%;
-    padding: 15px;
-    font-weight: 600;
+@media screen and (min-width: 600px) {
+    .wrapper {
+        display: flex;
+    }
 }
