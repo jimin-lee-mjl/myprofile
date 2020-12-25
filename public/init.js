@@ -42,7 +42,7 @@ function handleMovie() {
 
 function handleBook() {
     contents.style.display = "grid";
-    photo1.style.backgroundImage = "url('https://file3.instiz.net/data/file3/2019/10/06/0/e/d/0edf6ac013c2206e6ab6cee9811271e1.jpg')";
+    photo1.style.backgroundImage = "url('https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F190581104CF77C3923')";
     photo2.style.backgroundImage = "url('https://image.yes24.com/Goods/33175244/L')";
     photo3.style.backgroundImage = "url('https://newsimg.hankookilbo.com/cms/articlerelease/2020/10/21/d5d26e31-fcad-42fa-a0fe-cb8e6d2eb402.jpg')";
 }
