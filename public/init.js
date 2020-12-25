@@ -35,7 +35,7 @@ function handleAI() {
 
 function handleMovie() {
     contents.style.display = "grid";
-    photo1.style.backgroundImage = "url('https://img.extmovie.com/files/attach/images/135/985/787/045/93953f31e931d9b4f520e1d416e67de3.jpg')";
+    photo1.style.backgroundImage = "url('https://m.media-amazon.com/images/M/MV5BZTEzMTYwZDItODIyYy00MjRkLTljOWMtZDI0ZmNjN2JjOTEyXkEyXkFqcGdeQXVyNzgzODI1OTE@._V1_UY1200_CR93,0,630,1200_AL_.jpg')";
     photo2.style.backgroundImage = "url('https://www.ibs.re.kr/dext5data/2016/10/20161026_161059385_94498.jpg')";
     photo3.style.backgroundImage = "url('https://i.pinimg.com/originals/e3/32/df/e332dfa29df6ef4fd892907490d33e02.png')";
 }
