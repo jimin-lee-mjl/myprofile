@@ -35,6 +35,10 @@
     transition: all 0.3s;
 }
 
+.saying {
+    display: none;
+}
+
 .add_story:hover {
     font-size: 30px;
     background-color: white;
