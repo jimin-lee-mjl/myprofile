@@ -1,0 +1,62 @@
+.story_column {
+    height: 200px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    place-items: center;
+    row-gap: 10px;
+    margin-bottom: 15px;
+}
+
+.story {
+    width: 77px;
+    height: 77px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: rgba( 0, 0, 0, 0.1);
+    font-size: 13px;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.story:hover {
+    cursor: pointer;
+    background-color: rgba( 0, 0, 0, 0.2);
+    font-size: 14px;
+    transform: scale(1.1);
+}
+
+.add_story {
+    background-color: white;
+    border: solid 2px rgba( 0, 0, 0, 0.1);
+    font-size: 25px;
+    transition: all 0.3s;
+}
+
+.saying {
+    display: none;
+}
+
+.add_story:hover {
+    font-size: 30px;
+    background-color: white;
+}
+
+hr {
+    color: rgba( 0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.contents {
+    display: none;
+    grid-template-columns: repeat(3, 1fr);
+    height: 150px;
+}
+
+.illustration1, .illustration2, .illustration3 {
+    background-size: 140px 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
